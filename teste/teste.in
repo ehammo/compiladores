@@ -1,13 +1,23 @@
-olhaoidai
-_nocomeco
-no_meio
-nofim_
-{ (; == [])}
-* - < ! +
-1+1
-1*1
-//comentario
-/* comentario */
-0
-01
-01230
+class Factorial {
+    public static void main(String[] t) {
+    	System.out.println(new Fac().ComputeFac(10));
+    	//outro teste
+    	/* edfe
+    	* edede*/
+    }
+}
+
+class Fac {    //blabla
+    public int ComputeFac(int num){
+    	boolean s;
+		int num_aux ;
+		//edmweiced kemdkm mckmdic mthis is spartaaaaaaaaaaaaaaaaaaa
+    	s = num;
+		if (num < 1)
+		    num_aux = 1 ;
+		else 
+		    num_aux = num * (this.ComputeFac(num-1)) ;
+		return num_aux ;
+	    }
+
+}

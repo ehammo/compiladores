@@ -24,13 +24,15 @@ public class ehammoParser extends Parser {
 		T__26=9, T__25=10, T__24=11, T__23=12, T__22=13, T__21=14, T__20=15, T__19=16, 
 		T__18=17, T__17=18, T__16=19, T__15=20, T__14=21, T__13=22, T__12=23, 
 		T__11=24, T__10=25, T__9=26, T__8=27, T__7=28, T__6=29, T__5=30, T__4=31, 
-		T__3=32, T__2=33, T__1=34, T__0=35, IntegerLiteral=36, ID=37, Espacos=38;
+		T__3=32, T__2=33, T__1=34, T__0=35, IntegerLiteral=36, ID=37, MultiLineComment=38, 
+		Comment=39, Espacos=40;
 	public static final String[] tokenNames = {
 		"<INVALID>", "'main'", "'length'", "'new'", "'return'", "'class'", "'while'", 
 		"';'", "'void'", "'{'", "'&&'", "'='", "'extends'", "'}'", "'if'", "'int'", 
 		"'('", "'False'", "'*'", "'this'", "','", "'.'", "'boolean'", "'System.out.println'", 
 		"'['", "'<'", "'String'", "']'", "'public'", "'True'", "'!'", "'static'", 
-		"'else'", "')'", "'+'", "'-'", "IntegerLiteral", "ID", "Espacos"
+		"'else'", "')'", "'+'", "'-'", "IntegerLiteral", "ID", "MultiLineComment", 
+		"Comment", "Espacos"
 	};
 	public static final int
 		RULE_goal = 0, RULE_mainClass = 1, RULE_classDeclarationList = 2, RULE_classDeclaration = 3, 
@@ -1320,7 +1322,7 @@ public class ehammoParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd\3(\u012e\4\2\t\2\4"+
+		"\3\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd\3*\u012e\4\2\t\2\4"+
 		"\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t"+
 		"\13\4\f\t\f\4\r\t\r\4\16\t\16\4\17\t\17\4\20\t\20\4\21\t\21\3\2\3\2\3"+
 		"\2\3\2\3\2\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3\3"+

@@ -78,4 +78,6 @@ type returns [Type t]: 	'int' '[' ']' {$t = new IntArrayType();}|
 			
 IntegerLiteral : [0-9]+;
 ID				: ([A-Za-z]|[_])([0-9]|[A-Za-z]|[_])*;
+MultiLineComment : '/*' .*? '*/' -> skip;
+Comment : '//' ~[\r\n]* -> skip;
 Espacos : [ \t\r\n] -> skip;
