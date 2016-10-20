@@ -17,9 +17,9 @@ public class Teste {
     public static void main(String[] args) throws Exception {
         InputStream file = new FileInputStream("teste/QuickSort.java"); 
         ANTLRInputStream input = new ANTLRInputStream(file); // S/ precedencia nos op e nao reconhece blank space
-        gramaticaLexer lexer = new gramaticaLexer(input);
+        ehammoLexer lexer = new ehammoLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
-        gramaticaParser parser = new gramaticaParser(tokens);
+        ehammoParser parser = new ehammoParser(tokens);
         Program tree = parser.goal().p;
         PrettyPrintVisitor vis = new PrettyPrintVisitor();
         vis.visit(tree);

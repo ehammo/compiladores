@@ -1,4 +1,4 @@
-// Generated from gramatica.g4 by ANTLR 4.4
+// Generated from ehammo.g4 by ANTLR 4.4
 package gramatica;
 
   import ast.*;
@@ -10,203 +10,203 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link gramaticaListener},
+ * This class provides an empty implementation of {@link ehammoListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class gramaticaBaseListener implements gramaticaListener {
+public class ehammoBaseListener implements ehammoListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMethodDeclarationList(@NotNull gramaticaParser.MethodDeclarationListContext ctx) { }
+	@Override public void enterMethodDeclarationList(@NotNull ehammoParser.MethodDeclarationListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMethodDeclarationList(@NotNull gramaticaParser.MethodDeclarationListContext ctx) { }
+	@Override public void exitMethodDeclarationList(@NotNull ehammoParser.MethodDeclarationListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIdentifier(@NotNull gramaticaParser.IdentifierContext ctx) { }
+	@Override public void enterIdentifier(@NotNull ehammoParser.IdentifierContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIdentifier(@NotNull gramaticaParser.IdentifierContext ctx) { }
+	@Override public void exitIdentifier(@NotNull ehammoParser.IdentifierContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarDeclarationList(@NotNull gramaticaParser.VarDeclarationListContext ctx) { }
+	@Override public void enterVarDeclarationList(@NotNull ehammoParser.VarDeclarationListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarDeclarationList(@NotNull gramaticaParser.VarDeclarationListContext ctx) { }
+	@Override public void exitVarDeclarationList(@NotNull ehammoParser.VarDeclarationListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMethodDeclaration(@NotNull gramaticaParser.MethodDeclarationContext ctx) { }
+	@Override public void enterMethodDeclaration(@NotNull ehammoParser.MethodDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMethodDeclaration(@NotNull gramaticaParser.MethodDeclarationContext ctx) { }
+	@Override public void exitMethodDeclaration(@NotNull ehammoParser.MethodDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterGoal(@NotNull gramaticaParser.GoalContext ctx) { }
+	@Override public void enterGoal(@NotNull ehammoParser.GoalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitGoal(@NotNull gramaticaParser.GoalContext ctx) { }
+	@Override public void exitGoal(@NotNull ehammoParser.GoalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpression(@NotNull gramaticaParser.ExpressionContext ctx) { }
+	@Override public void enterExpression(@NotNull ehammoParser.ExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpression(@NotNull gramaticaParser.ExpressionContext ctx) { }
+	@Override public void exitExpression(@NotNull ehammoParser.ExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMainClass(@NotNull gramaticaParser.MainClassContext ctx) { }
+	@Override public void enterMainClass(@NotNull ehammoParser.MainClassContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMainClass(@NotNull gramaticaParser.MainClassContext ctx) { }
+	@Override public void exitMainClass(@NotNull ehammoParser.MainClassContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterType(@NotNull gramaticaParser.TypeContext ctx) { }
+	@Override public void enterType(@NotNull ehammoParser.TypeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitType(@NotNull gramaticaParser.TypeContext ctx) { }
+	@Override public void exitType(@NotNull ehammoParser.TypeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarDeclaration(@NotNull gramaticaParser.VarDeclarationContext ctx) { }
+	@Override public void enterVarDeclaration(@NotNull ehammoParser.VarDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarDeclaration(@NotNull gramaticaParser.VarDeclarationContext ctx) { }
+	@Override public void exitVarDeclaration(@NotNull ehammoParser.VarDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterClassDeclaration(@NotNull gramaticaParser.ClassDeclarationContext ctx) { }
+	@Override public void enterClassDeclaration(@NotNull ehammoParser.ClassDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitClassDeclaration(@NotNull gramaticaParser.ClassDeclarationContext ctx) { }
+	@Override public void exitClassDeclaration(@NotNull ehammoParser.ClassDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFormal(@NotNull gramaticaParser.FormalContext ctx) { }
+	@Override public void enterFormal(@NotNull ehammoParser.FormalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFormal(@NotNull gramaticaParser.FormalContext ctx) { }
+	@Override public void exitFormal(@NotNull ehammoParser.FormalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpressionList(@NotNull gramaticaParser.ExpressionListContext ctx) { }
+	@Override public void enterExpressionList(@NotNull ehammoParser.ExpressionListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpressionList(@NotNull gramaticaParser.ExpressionListContext ctx) { }
+	@Override public void exitExpressionList(@NotNull ehammoParser.ExpressionListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFormalList(@NotNull gramaticaParser.FormalListContext ctx) { }
+	@Override public void enterFormalList(@NotNull ehammoParser.FormalListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFormalList(@NotNull gramaticaParser.FormalListContext ctx) { }
+	@Override public void exitFormalList(@NotNull ehammoParser.FormalListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterClassDeclarationList(@NotNull gramaticaParser.ClassDeclarationListContext ctx) { }
+	@Override public void enterClassDeclarationList(@NotNull ehammoParser.ClassDeclarationListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitClassDeclarationList(@NotNull gramaticaParser.ClassDeclarationListContext ctx) { }
+	@Override public void exitClassDeclarationList(@NotNull ehammoParser.ClassDeclarationListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStatementList(@NotNull gramaticaParser.StatementListContext ctx) { }
+	@Override public void enterStatementList(@NotNull ehammoParser.StatementListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStatementList(@NotNull gramaticaParser.StatementListContext ctx) { }
+	@Override public void exitStatementList(@NotNull ehammoParser.StatementListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStatement(@NotNull gramaticaParser.StatementContext ctx) { }
+	@Override public void enterStatement(@NotNull ehammoParser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStatement(@NotNull gramaticaParser.StatementContext ctx) { }
+	@Override public void exitStatement(@NotNull ehammoParser.StatementContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

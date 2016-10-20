@@ -1,4 +1,4 @@
-grammar gramatica;
+grammar ehammo;
 @header {
   import ast.*;
 }

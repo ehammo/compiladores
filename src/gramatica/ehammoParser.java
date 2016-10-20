@@ -1,4 +1,4 @@
-// Generated from gramatica.g4 by ANTLR 4.4
+// Generated from ehammo.g4 by ANTLR 4.4
 package gramatica;
 
   import ast.*;
@@ -13,7 +13,7 @@ import java.util.Iterator;
 import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class gramaticaParser extends Parser {
+public class ehammoParser extends Parser {
 	static { RuntimeMetaData.checkVersion("4.4", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -46,7 +46,7 @@ public class gramaticaParser extends Parser {
 	};
 
 	@Override
-	public String getGrammarFileName() { return "gramatica.g4"; }
+	public String getGrammarFileName() { return "ehammo.g4"; }
 
 	@Override
 	public String[] getTokenNames() { return tokenNames; }
@@ -60,7 +60,7 @@ public class gramaticaParser extends Parser {
 	@Override
 	public ATN getATN() { return _ATN; }
 
-	public gramaticaParser(TokenStream input) {
+	public ehammoParser(TokenStream input) {
 		super(input);
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
@@ -68,7 +68,7 @@ public class gramaticaParser extends Parser {
 		public Program p;
 		public MainClassContext mainClass;
 		public ClassDeclarationListContext classDeclarationList;
-		public TerminalNode EOF() { return getToken(gramaticaParser.EOF, 0); }
+		public TerminalNode EOF() { return getToken(ehammoParser.EOF, 0); }
 		public ClassDeclarationListContext classDeclarationList() {
 			return getRuleContext(ClassDeclarationListContext.class,0);
 		}
@@ -81,11 +81,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_goal; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterGoal(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterGoal(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitGoal(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitGoal(this);
 		}
 	}
 
@@ -132,11 +132,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_mainClass; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterMainClass(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterMainClass(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitMainClass(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitMainClass(this);
 		}
 	}
 
@@ -193,11 +193,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classDeclarationList; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterClassDeclarationList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterClassDeclarationList(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitClassDeclarationList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitClassDeclarationList(this);
 		}
 	}
 
@@ -260,11 +260,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterClassDeclaration(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterClassDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitClassDeclaration(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitClassDeclaration(this);
 		}
 	}
 
@@ -329,11 +329,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_varDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterVarDeclaration(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterVarDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitVarDeclaration(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitVarDeclaration(this);
 		}
 	}
 
@@ -376,11 +376,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_varDeclarationList; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterVarDeclarationList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterVarDeclarationList(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitVarDeclarationList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitVarDeclarationList(this);
 		}
 	}
 
@@ -455,11 +455,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_methodDeclarationList; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterMethodDeclarationList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterMethodDeclarationList(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitMethodDeclarationList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitMethodDeclarationList(this);
 		}
 	}
 
@@ -530,11 +530,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_methodDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterMethodDeclaration(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterMethodDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitMethodDeclaration(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitMethodDeclaration(this);
 		}
 	}
 
@@ -587,11 +587,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_formalList; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterFormalList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterFormalList(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitFormalList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitFormalList(this);
 		}
 	}
 
@@ -652,11 +652,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_formal; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterFormal(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterFormal(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitFormal(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitFormal(this);
 		}
 	}
 
@@ -715,11 +715,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterStatement(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterStatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitStatement(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitStatement(this);
 		}
 	}
 
@@ -825,11 +825,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementList; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterStatementList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterStatementList(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitStatementList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitStatementList(this);
 		}
 	}
 
@@ -884,7 +884,7 @@ public class gramaticaParser extends Parser {
 		public ExpressionListContext expressionList() {
 			return getRuleContext(ExpressionListContext.class,0);
 		}
-		public TerminalNode IntegerLiteral() { return getToken(gramaticaParser.IntegerLiteral, 0); }
+		public TerminalNode IntegerLiteral() { return getToken(ehammoParser.IntegerLiteral, 0); }
 		public ExpressionContext expression(int i) {
 			return getRuleContext(ExpressionContext.class,i);
 		}
@@ -900,11 +900,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterExpression(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterExpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitExpression(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitExpression(this);
 		}
 	}
 
@@ -1137,11 +1137,11 @@ public class gramaticaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionList; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterExpressionList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterExpressionList(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitExpressionList(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitExpressionList(this);
 		}
 	}
 
@@ -1189,18 +1189,18 @@ public class gramaticaParser extends Parser {
 	public static class IdentifierContext extends ParserRuleContext {
 		public Identifier id;
 		public Token ID;
-		public TerminalNode ID() { return getToken(gramaticaParser.ID, 0); }
+		public TerminalNode ID() { return getToken(ehammoParser.ID, 0); }
 		public IdentifierContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_identifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterIdentifier(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterIdentifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitIdentifier(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitIdentifier(this);
 		}
 	}
 
@@ -1228,18 +1228,18 @@ public class gramaticaParser extends Parser {
 	public static class TypeContext extends ParserRuleContext {
 		public Type t;
 		public Token ID;
-		public TerminalNode ID() { return getToken(gramaticaParser.ID, 0); }
+		public TerminalNode ID() { return getToken(ehammoParser.ID, 0); }
 		public TypeContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_type; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).enterType(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).enterType(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof gramaticaListener ) ((gramaticaListener)listener).exitType(this);
+			if ( listener instanceof ehammoListener ) ((ehammoListener)listener).exitType(this);
 		}
 	}
 
