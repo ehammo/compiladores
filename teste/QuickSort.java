@@ -12,6 +12,7 @@ class QS{
     
     int[] number ;
     int size ;
+    int teste;
 
     // Invoke the Initialization, Sort and Printing
     // Methods

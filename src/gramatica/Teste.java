@@ -11,7 +11,9 @@ import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.tree.ParseTree;
 
 import ast.Program;
+import visitor.BuildSymbolTableVisitor;
 import visitor.PrettyPrintVisitor;
+import visitor.TypeCheckVisitor;
 
 public class Teste {
     public static void main(String[] args) throws Exception {
@@ -21,7 +23,9 @@ public class Teste {
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         ehammoParser parser = new ehammoParser(tokens);
         Program tree = parser.goal().p;
-        PrettyPrintVisitor vis = new PrettyPrintVisitor();
-        vis.visit(tree);
+        BuildSymbolTableVisitor stVis = new BuildSymbolTableVisitor();
+        tree.accept(stVis);
+		tree.accept(new TypeCheckVisitor(stVis.getSymbolTable()));
+        
     }
 }
